@@ -17,6 +17,7 @@ namespace CSharpGIT
             LastName = lastName;
             Age = age;
         }
+        public override string ToString() => $"Name:{FirstName} {LastName}";
 
     }
 }
