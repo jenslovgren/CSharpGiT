@@ -7,6 +7,8 @@ namespace CSharpGIT
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hej");
+        }
             List<Fruit> fruits = new List<Fruit>();
 
             fruits.Add(new Fruit("Banana", 0.1, 3));
@@ -14,7 +16,6 @@ namespace CSharpGIT
             fruits.Add(new Fruit("Pineapple", 1, 8));
             fruits.Add(new Fruit("Lemon", 0.15, 1));
 
-
-        }
+       
     }
 }
